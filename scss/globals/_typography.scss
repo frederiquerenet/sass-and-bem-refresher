@@ -1,7 +1,9 @@
+@use '../util/fonts' as u;
+
 h1,
 h2,
 h3 {
-  font-family: 'Metropolis', Helvetica, sans-serif;
+  font-family: u.$headline;
   font-weight: 700;
   line-height: 1.1;
   margin-top: 0;

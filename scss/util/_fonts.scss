@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Lora';
+  src: url(/assets/fonts/Lora/Lora-Regular.woff),
+    url(/assets/fonts/Lora/Lora-Regular.woff2),
+    url(/assets/fonts/Lora/Lora-Bold.woff),
+    url(/assets/fonts/Lora/Lora-Bold.woff2),
+    url(/assets/fonts/Lora/Lora-Italic.woff),
+    url(/assets/fonts/Lora/Lora-Italic.woff2);
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url(/assets/fonts/Metropolis/Metropolis-Bold.woff),
+    url(/assets/fonts/Metropolis/Metropolis-Bold.woff2),
+    url(/assets/fonts/Metropolis/Metropolis-ExtraBold.woff),
+    url(/assets/fonts/Metropolis/Metropolis-ExtraBold.woff2),
+    url(/assets/fonts/Metropolis/Metropolis-Regular.woff),
+    url(/assets/fonts/Metropolis/Metropolis-Regular.woff2);
+}
+
+$headline: 'Metropolis', Arial, sans-serif;
+$bodytext: 'Lora',Georgia, serif;
